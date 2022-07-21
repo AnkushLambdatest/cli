@@ -1,0 +1,9 @@
+framework: golang
+version: "1.2.0"
+preRun:
+  command:
+    - "go mod download"
+  
+postMerge:
+  pattern:
+    - ""
